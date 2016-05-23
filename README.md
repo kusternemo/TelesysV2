@@ -55,7 +55,7 @@ Create a realm using the `!createrealm` command.
 
 #Team Channel :
 
-#([@BeyondTeam](https://telegram.me/telesys_ch))
+#([@telesys_ch](https://telegram.me/telesys_ch))
 
 #Special Thx To :
 
