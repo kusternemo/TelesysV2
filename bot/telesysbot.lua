@@ -362,73 +362,122 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
-!kick [username|id]
-You can also do it by reply
-!ban [ username|id]
-You can also do it by reply
-!unban [id]
-You can also do it by reply
-!who
-Members list
-!modlist
-Moderators list
-!promote [username]
-Promote someone
-!demote [username]
-Demote someone
-!kickme
-Will kick user
-!about
-Group description
-!setphoto
-Set and locks group photo
-!setname [name]
-Set group name
-!rules
-Group rules
-!id
-return group id or user id
-!help
-!lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
-!set rules <text>
-Set <text> as rules
-!set about <text>
-Set <text> as about
-!settings
-Returns group settings
-!newlink
-create/revoke your group link
-!link
-returns group link
+🚀 telesysSuperGroup Commands:
 !owner
-returns group owner id
-!setowner [id]
-Will set id as owner
-!setflood [value]
-Set [value] as flood sensitivity
-!stats
-Simple message statistics
-!save [value] <text>
-Save <text> as [value]
-!get [value]
-Returns text of [value]
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-!res [username]
-returns user id
-"!res @username"
-!log
-will return group logs
+دریافت آیدی مدیر اصلی گروه
+!modlist
+دریافت لیست معاونان سوپرگروه
+!block
+اخراج و اضافه کردن یک فرد به لیست بلاک
+!ban
+بن کردن فردی از سوپرگروه
+!unban
+آنبن کردن فردی از سوپرگروه
+!muteuser
+بی صدا کردن فرد توسط ریپلی یا یوزرنیم
+برای خارج کردن از بی صدا دوباره دستور را ارسال نمایید
+!info
+دریافت اطلاعات خود
+!save (متن) (موضوع)
+ذخیره یک متن
+!get (موضوع)
+دریافت متن ذخیره شده
+!id
+دریافت آیدی سوپرگروه یا یک فرد
+!setowner
+تنظیم کردن مدیر اصلی سوپرگروه
+!promote [یوزرنیم|آیدی] 
+اضافه کردن مدیر به سوپرگروه
+!demote [یوزرنیم|آیدی]
+حذف کردن مدیر از سوپرگروه
+!setname (نام جدید گروه)
+تنظیم نام گروه
+!setphoto
+تنظیم عکس گروه
+!setrules
+تنظیم قوانین گروه
+!newlink
+ایجاد لینک جدید
+!link
+دریافت لینک
+!rules
+دریافت قوانین
+!lock [links|spam|Arabic|member|rtl|sticker|contacts|strict]
+قفل کردن تنظیمات سوپرگروه
+!unlock [links|spam|Arabic|member|rtl|sticker|contacts|strict]
+بازکردن تنظیمات سوپرگروه
+!mute [chat|audio|gifs|photo|video|service]
+بی صدا کردن یک تایپ در سوپرگروه
+!unmute [chat|audio|gifs|photo|video|service]
+با صدا کردن یک تایپ در سوپرگروه 
+!setflood [عدد]
+تنظیم کردن حساسیت اسپم
+!settings
+دریافت تنظیمات سوپرگروه
 !banlist
-will return group ban list
-**U can use both "/" and "!" 
-*Only owner and mods can add bots in group
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-*Only owner can use res,setowner,promote,demote and log commands
+دریافت لیست اعضای بن شده
+!clean [rules|about|modlist|mutelist]
+پاک کردن قوانین ، درباره ، اعضای بی صدا و لیست مدیران
+!del
+حذف یک پیام توسط ریپلی در سوپرگروه
+!support
+دعوت سازنده ربات در صورت وجود مشکل 
+فقط در صورت وجود مشکل در گروه سازنده را دعوت کنید در غیر این صورت گروه شما حذف خواهد شد 
+!feedback (متن)
+ارسال پیام به سازنده
+!supportlink
+دریافت لینک گروه ساپورت ربات
+!git (یوزرنیم)
+دریافت اطلاعات یک یوزرنیم در گیت هاب
+!google
+سرچ کردن در گوگل
+!aparat متن
+سرچ کردن یک متن در آپارات
+!praytime (شهر)
+دریافت وقت اذان یک شهر
+بگو (متن)
+تکرار یک متن توسط ربات
+!gif متن
+سرچ کردن یک متن و دریافت به صورت گیف
+!gps (شهر) (کشور)
+دریافت مکان مورد نظر از گوگل
+!insta (یوزرنیم اینستا)
+سرچ کردن یک یوزرنیم در اینستاگرام
+!tosticker
+تبدیل کردن عکس به استیکر توسط ریپلی
+!tophoto
+تبدیل استیکر به عکس توسط ریپلی 
+!qr
+دریافت هر چیزی به صورت بارکد
+!addword کلمه
+اضافه کردن یک کلمه به لیست فیلتر
+!rw کلمه
+حذف یک کلمه از لیست فیلترینگ 
+!badwords
+دریافت لیست فیلترینگ 
+!msgrem (عددی زیر 100)
+حذف پیام های سوپرگروه به صورت عددی
+!file (متن) (نام فایل.فرمت فایل)
+دریافت یک نوشته به صورت فایل با فرمت دلخواه
+!wikifa (متن)
+جستجوی یک متن در ویکی پدیا 
+!calc 4-2
+انجام محاسبات ریاضی 
+!time (نام شهر)
+دریافت زمان یک شهر 
+!weather (نام شهر)
+دریافت وضعیت آب و هوای یک شهر
+!sticker متن
+تبدیل متن به استیکر
+!vc متن
+دریافت متن به صورت صدا
+!webshot (آدرس سایت)
+اسکرین شات گرفتن از یک سایت
+!gold
+گرفتن اطلاعات ربات
+!mean کلمه
+معنی کلمه
+@Telesys_ch
 ]]
   }
   serialize_to_file(config, './data/config.lua')
