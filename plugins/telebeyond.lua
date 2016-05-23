@@ -6,33 +6,31 @@ local function run(msg, matches)
       return [[ 
   
     
-Tele Beyond Final Version
-An Administrator The PowerFull Bot Based On TeleSeed And Bilingual Written In Lua
+TeleSys.V2 
     
 Sudo Users :
 
-Developer&Founder : @SoLiD021
-Developer&Manager : @MrHalix
-Developer&Manager : @idivanmanheb
+Developer&Founder : @telesys_sudo
+Manager : @msa_ts_sudo
 
 Team Channel :
-@BeyondTeam
+@telesys_ch
      
 Special Thx To :
 
-Beyond Team
+TeleSys team
 And All My Friends :D
      
-TeleBeyond (Open Source) Final Version :
-Https://Github.com/solid021/TeleBeyond
+TeleSys (Open Source) Final Version :
+Https://Github.com/kusternemo/TelesysV2
  ]]
   end
 end
 
 return {
   patterns = {
-    "^[!/#]([Tt]elebeyond)$",
-    "^([Tt]elebeyond)$",
+    "^[!/#]([Tt]elesys)$",
+    "^([Tt]elesys)$",
     "^[!/#]([Vv]ersion)$",
     "^([Vv]ersion)$",
     "^([Gg]it)$",
