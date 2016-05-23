@@ -1,6 +1,4 @@
-#TeleBeyond Final Version
-
-**An advanced and powerful administration bot based on TeleSeed licensed under the [GNU General Public License](https://github.com/solid021/TeleBeyond/blob/master/LICENSE)**.
+#Telesys v2
 
 #Don't Forget Star To Us ;)
 
@@ -12,8 +10,8 @@
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make autoconf unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev
 
 cd $HOME
-git clone http://Github.com/solid021/TeleBeyond.git
-cd TeleBeyond
+git clone http://Github.com//kusternemo/TelesysV2.git
+cd Telesys
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh
@@ -51,15 +49,13 @@ Create a realm using the `!createrealm` command.
 
 #Sudo Users :
 
-#([SoLiD](https://telegram.me/SoLiD021))
+#([Alireza](https://telegram.me/telesys_sudo))
 
-#([MrHalix](https://telegram.me/MrHalix))
-
-#([Behnam](https://telegram.me/idivaNmanheB))
+#([mohammad](https://telegram.me/msa_ts_sudo))
 
 #Team Channel :
 
-#([@BeyondTeam](https://telegram.me/BeyondTeam))
+#([@BeyondTeam](https://telegram.me/telesys_ch))
 
 #Special Thx To :
 
